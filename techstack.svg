@@ -1,0 +1,45 @@
+<svg viewBox="0 0 900 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <style>
+    /* Container utama yang membungkus semua logo */
+    .scroll-wrapper {
+      animation: scroll-left 20s linear infinite;
+      display: flex;
+    }
+
+    /* Keyframe untuk menggeser logo secara seamless */
+    @keyframes scroll-left {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* Opsional: Berhenti saat kursor di atasnya (Hover) */
+    svg:hover .scroll-wrapper {
+      animation-play-state: paused;
+    }
+  </style>
+
+  <g class="scroll-wrapper">
+    <!-- GRUP 1 -->
+    <image href="https://skillicons.dev/icons?i=react" x="0" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=nextjs" x="100" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=ts" x="200" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=tailwind" x="300" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=kotlin" x="400" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=laravel" x="500" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=mysql" x="600" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=figma" x="700" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=github" x="800" y="25" height="50" width="50" />
+
+    <!-- GRUP 2 (Duplikasi persis untuk looping tanpa putus) -->
+    <!-- X dimulai dari 900 karena grup pertama berakhir di 850+ -->
+    <image href="https://skillicons.dev/icons?i=react" x="900" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=nextjs" x="1000" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=ts" x="1100" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=tailwind" x="1200" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=kotlin" x="1300" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=laravel" x="1400" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=mysql" x="1500" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=figma" x="1600" y="25" height="50" width="50" />
+    <image href="https://skillicons.dev/icons?i=github" x="1700" y="25" height="50" width="50" />
+  </g>
+</svg>

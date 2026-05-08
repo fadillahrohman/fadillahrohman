@@ -1,1 +1,3 @@
-﻿<img src="cat.gif" width="500" height="500"/>
+<div align="center">
+  <img src="techstack.svg" width="100%" alt="Tech Stack Marquee" />
+</div>
